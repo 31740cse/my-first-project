@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caramel&display=swap');
+:root{
+    --main-bg-color: #2874f0;
+}
+header{
+    height: 54px;
+    background: var(--main-bg-color);
+    color: white;
+}
+main{
+    /* height: calc(100vh - 60px - 30px); */
+}
+header{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.945);
+    margin: 15px;
+    font-size: 15px;
+}
+nav{
+    padding-left: 35px;
+}
+.search{
+    padding-left: 35px;
+    
+}
+.head-main{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: white;
+    font-size: 17px;
+}
+footer{
+    background: var(--main-bg-color);
+    height: 30px;
+}
+.base{
+    color: white;
+    /* display: flex; */
+    justify-content: center;
+   /* padding-top: 13px; */
+    font-size: 20px;
+    
+    text-align: center;
+}
+.btn{
+    height: 23px;
+border: 1px solid white;
+border-radius: 6px;
+    cursor: pointer;
+    width: 53px;
+    background: var(--main-bg-color);
+    color: white;
+
+}
+.slider{
+    display: flex;
+    justify-content: center;
+   /* background-color: blueviolet; */
+   margin-top: 9px;
+}
+.card{
+    max-width: 93vw;
+    margin: auto;
+    background-color: rgb(228, 241, 241);
+}
+.card-iteam{
+    display: inline-flex;
+    justify-content: center;
+    width: 10vw;
+    flex-direction: column;
+    margin: 0 8px;
+}
+h2{
+    font-family: 'Caramel', cursive;
+    margin: 5px;
+}
+.my-2{
+    margin: 4px 0;
+}
+.my-1{
+    margin: 11px 0;
+}
+.text-center{
+    text-align: center;
+}
+
